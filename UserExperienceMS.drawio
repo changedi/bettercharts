@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T05:58:24.257Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="tPtrRLdaC1uThB5Se982" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-15T06:12:10.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="wt3rvCvdR__vXtphlLlx" version="16.5.6" type="github">
   <diagram id="LrDT-2fnjlLrGnoS8Kym" name="Page-1">
     <mxGraphModel dx="903" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,6 +105,42 @@
         </mxCell>
         <mxCell id="NIo4wRNYglLKpnFKmgiN-26" value="消息体&lt;br&gt;{&lt;br&gt;uid,conent,&lt;br&gt;tag,label&lt;br&gt;}" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="350" y="310" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="125" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-27" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="NIo4wRNYglLKpnFKmgiN-29">
+          <mxGeometry width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-28" value="数据汇总" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NIo4wRNYglLKpnFKmgiN-29">
+          <mxGeometry x="30" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-36" value="分类器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NIo4wRNYglLKpnFKmgiN-29">
+          <mxGeometry x="15" y="20" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-37" value="售后model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NIo4wRNYglLKpnFKmgiN-29">
+          <mxGeometry x="15" y="45" width="30" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-38" value="评价model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NIo4wRNYglLKpnFKmgiN-29">
+          <mxGeometry x="51" y="45" width="30" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="240" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-31" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="NIo4wRNYglLKpnFKmgiN-30">
+          <mxGeometry width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-32" value="参数管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NIo4wRNYglLKpnFKmgiN-30">
+          <mxGeometry x="30" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="354" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-34" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="NIo4wRNYglLKpnFKmgiN-33">
+          <mxGeometry width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-35" value="算子管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NIo4wRNYglLKpnFKmgiN-33">
+          <mxGeometry x="30" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
