@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T06:16:52.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="bdDObK0T8MORbEpWppCB" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-15T06:17:56.787Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="TizLEWd3Z48LQFPhXIP_" version="16.5.6" type="github">
   <diagram id="LrDT-2fnjlLrGnoS8Kym" name="Page-1">
     <mxGraphModel dx="903" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,8 +175,8 @@
         <mxCell id="NIo4wRNYglLKpnFKmgiN-48" value="UDF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="380" y="250" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NIo4wRNYglLKpnFKmgiN-49" value="FatJar" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="375" y="280" width="50" height="20" as="geometry" />
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-49" value="RichClient" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
