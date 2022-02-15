@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T05:54:31.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="XePNadYIyrB3h3io73nv" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-15T05:58:24.257Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="tPtrRLdaC1uThB5Se982" version="16.5.6" type="github">
   <diagram id="LrDT-2fnjlLrGnoS8Kym" name="Page-1">
     <mxGraphModel dx="903" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,10 +23,10 @@
           <mxGeometry x="100" y="400" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NIo4wRNYglLKpnFKmgiN-6" value="ODPS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="230" y="190" width="60" height="60" as="geometry" />
+          <mxGeometry x="230" y="170" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NIo4wRNYglLKpnFKmgiN-7" value="Blink" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="230" y="300" width="60" height="60" as="geometry" />
+          <mxGeometry x="230" y="319" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NIo4wRNYglLKpnFKmgiN-9" value="数据入仓" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="230" y="125" width="60" height="20" as="geometry" />
@@ -66,6 +66,45 @@
         </mxCell>
         <mxCell id="NIo4wRNYglLKpnFKmgiN-17" value="datax" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="170" y="360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-18" value="dwd中间表" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NIo4wRNYglLKpnFKmgiN-6" target="NIo4wRNYglLKpnFKmgiN-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="300" as="sourcePoint" />
+            <mxPoint x="240" y="217.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NIo4wRNYglLKpnFKmgiN-7" target="NIo4wRNYglLKpnFKmgiN-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="291.29999999999995" y="235.64999999999998" as="sourcePoint" />
+            <mxPoint x="310" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-21" value="ops应用表" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="125" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-22" value="ces应用表" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-23" value="voc应用表" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="195" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="NIo4wRNYglLKpnFKmgiN-18" target="NIo4wRNYglLKpnFKmgiN-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;entryPerimeter=0;" edge="1" parent="1" source="NIo4wRNYglLKpnFKmgiN-18" target="NIo4wRNYglLKpnFKmgiN-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="277.5" as="sourcePoint" />
+            <mxPoint x="400" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIo4wRNYglLKpnFKmgiN-26" value="消息体&lt;br&gt;{&lt;br&gt;uid,conent,&lt;br&gt;tag,label&lt;br&gt;}" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
